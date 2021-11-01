@@ -222,10 +222,7 @@ body{
     outline: white;
     border: 1px solid white;
 }
-.main-wellcome-form{
-    position: relative;
-    left: 44%;
-}
+
 .main-wellcome-form label{
     color:white;
     
@@ -236,8 +233,6 @@ body{
 .welcome-foam{
     color:white;
     background-color: #0087ff;
-    
-    margin-left: 45%;
     margin-top: 22px;
     padding-inline: 36px;
     font-size: 22px;
@@ -250,9 +245,12 @@ body{
 }
 .how-we-use{
     color: white;
-    position: relative;
-    left: 47%;
+   
 }
 .how-we-use:hover{
     color: white;
+}
+.radio input{
+    position: relative;
+    left: 47%;
 }
