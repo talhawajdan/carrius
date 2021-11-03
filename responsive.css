@@ -1,0 +1,245 @@
+@media only screen and (max-width: 550px){
+    .bigscreen{
+ display:none !important;
+    }
+    
+    .short-screen{
+        display: block !important;
+    }
+    .btn-index-3{
+        margin-top: 40px;
+    margin-left: 26px;
+    }
+    .main-video {
+        width: 24rem !important;
+        height: 17rem !important ;
+        position: relative;
+    
+    }
+    .header-right
+    {
+        margin-right: 0rem !important;
+    }
+    .compony-name{
+        display: none !important;
+    }
+    .copy-invitation-link{
+        
+    font-size: 13px !important;
+
+    }
+    .setting-list ul li a {
+        font-size: 0px;
+        letter-spacing: 0;
+    }
+    .video-setting {
+        padding: 15px 10px;
+        padding-bottom: 5px;
+    }
+    .setting-list ul li span {
+        width: 38px;
+        height: 38px;
+    }
+    .call_close img {
+        width: 40px;
+    }
+    .call_close {
+        padding: 0 5px;
+    }
+    .setting-list ul li {
+        display: inline-block;
+        margin: 0 2px;
+    }
+    .setting-list img{
+        width: 15px !important;
+    }
+    .small-video{
+        margin-left: 4rem !important;
+    }
+    .main-setting{
+  position: relative;
+    right: 50%;
+    padding: 0px !important;
+    margin-left: 15rem !important;
+    
+
+
+    }
+    .mic{
+        width: 14px !important;
+    }
+    .short-screen2{
+        width: 10rem !important;
+        height: 6rem !important;
+        position: absolute;
+    top: 120px !important;
+    right: 17px !important;
+    }
+    .radio input{
+        position: relative;
+        left: 38%;
+    } 
+    .text{
+        width: 60% !important;
+    }
+    .one-way{
+        margin-left: 0rem !important;
+        height: 15rem;
+        width: 10rem;
+        margin-right: 1rem;
+        border-radius: 12px;
+        margin-top: 1rem;
+    }
+    .Two-way{
+        border: 2px solid #004fc4;
+        margin-top: 1rem;
+        border-radius: 12px;
+        height: 15rem;
+        width: 9rem;
+    }
+    .btn-index-4{
+       padding-right: 27px;
+    }
+    .btn-index-3{
+        margin-left: 11%;
+    }
+    body{
+        overflow: auto !important;
+    }
+    .copy-invitation-link{
+        margin-left: 45px;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        overflow: auto !important;
+    }
+    .main-setting{
+        margin-left: 0rem;
+    }
+    .main-video{
+        width: 48rem;
+    }
+    .short-screen2{
+        width: 10rem !important;
+        height: 6rem !important;
+        position: absolute;
+    top: 120px;
+    right: 0px;
+    }
+    .btn-index-4{
+        margin-left: 21%;
+    }
+    .radio input{
+        position: relative;
+        left: 44%;
+    } 
+}
+@media only screen and (max-width: 800px){
+
+    .bigscreen{
+        display:none !important;
+           }
+           
+           .short-screen{
+               display: block !important;
+           }
+           .btn-index-3{
+               margin-top: 40px;
+           margin-left: 26px;
+           }
+           .main-video {
+               width: 43rem ;
+               height: 17rem  ;;
+               position: relative;
+               left: 2%;
+           
+           }
+           .header-right
+           {
+               margin-right: 0rem !important;
+           }
+           
+           .copy-invitation-link{
+               
+           font-size: 13px !important;
+       
+           }
+           .setting-list ul li a {
+               font-size: 0px;
+               letter-spacing: 0;
+           }
+           .video-setting {
+               padding: 15px 10px;
+               padding-bottom: 5px;
+           }
+           .setting-list ul li span {
+               width: 38px;
+               height: 38px;
+           }
+           .call_close img {
+               width: 40px;
+           }
+           .call_close {
+               padding: 0 5px;
+           }
+           .setting-list ul li {
+               display: inline-block;
+               margin: 0 2px;
+           }
+           .setting-list img{
+               width: 15px !important;
+           }
+           .small-video{
+               margin-left: 4rem !important;
+           }
+           .main-setting{
+         position: relative;
+           right: 50%;
+           padding: 0px !important;
+           margin-left: 26rem;
+           
+       
+       
+           }
+           .short-screen2{
+            width: 10rem ;
+            height: 6rem ;
+            position: absolute;
+            top: 120px;
+            right: 35px;
+           }
+           .radio input{
+               position: relative;
+               left: 38%;
+           } 
+           .text{
+               width: 60% !important;
+           }
+           .one-way{
+               margin-left: 0rem !important;
+               height: 15rem;
+               width: 10rem;
+               margin-right: 1rem;
+               border-radius: 12px;
+               margin-top: 1rem;
+           }
+           .Two-way{
+               border: 2px solid #004fc4;
+               margin-top: 1rem;
+               border-radius: 12px;
+               height: 15rem;
+               width: 9rem;
+           }
+           .btn-index-4{
+              padding-right: 27px;
+           }
+           .btn-index-3{
+               margin-left: 11%;
+           }
+           body{
+               overflow: auto !important;
+           }
+           
+}

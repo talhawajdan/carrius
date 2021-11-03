@@ -22,6 +22,7 @@
     border-radius: 10px;
     width: 52rem;
     height: 25rem;
+    background-color: #F2F2F2;
 }
 body{
     overflow: hidden;
@@ -135,7 +136,7 @@ body{
     border-radius: 100%;
     cursor: pointer;
 }
-.short-screen{
+.short-screen2{
     
     width: 15rem;
     height: 9rem;
@@ -177,7 +178,7 @@ body{
 }
 .input-area input{
     
-    width: 22rem;
+    width: 18rem;
     margin-left: 21px;
     margin-top: 13px;
     border-radius: 21px;
@@ -199,6 +200,7 @@ body{
     border-bottom: 1px solid gray;
     outline: white;
     width: 14rem;
+    height: 23px;
 }
 .submit-btn{
     
@@ -253,4 +255,90 @@ body{
 .radio input{
     position: relative;
     left: 47%;
+} 
+.thanks-words h1{
+    color: white;
+    margin-top: 7rem;
+}
+.btn-index-3 {
+    background-color: #0087ff;
+    color: white;
+}
+.letusknow{
+    color: white;
+}
+.checked {
+    color:#ffee00 ;
+  }
+  .two-option h3{
+    color:#004fc4;
+  }
+  .communicate{
+      color:gray;
+  }
+.one-way{
+    border: 2px solid #004fc4 ;
+    height: 14rem;
+    width: 12rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.Two-way{
+    border: 2px solid #004fc4 ;
+    margin-top: 1rem;
+    border-radius: 12px;
+    height: 14rem;
+    width: 12rem;
+}
+.or{
+    color: gray;
+    height: 21px;
+    position: relative;
+    top: 123px;
+    right: 8px;
+
+}
+.Connect-btn{
+    
+    margin-top: 3%;
+    background-color: #004fc4;
+    color: white;
+    padding-inline: 37px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.Connect-btn:hover{
+    color: white;
+}
+.two-option h4{
+    color:#004fc4;
+  }
+ 
+  .color-blue{
+    color:#004fc4;
+  }
+  .selected{
+    color: white !important;
+    background-color:#004fc4 !important ;
+}
+.offcanvas-header{
+    padding-right:0px ;
+}
+.text-reset{
+    padding: 0px;
+    padding-right: 5px;
+}
+.waiting{
+    
+    width: 9rem;
+    
+    margin-top: 12%;
+
+
+}
+.word{
+    color: #004fc4;
 }

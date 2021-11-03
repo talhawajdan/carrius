@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/img/brand_logo.png" type="image/icon type">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="img/brand_logo.png" type="image/icon type">
     <title>Carrius</title>
 </head>
 
@@ -24,69 +25,95 @@
             <a class="navbar-brand" id="brand" href="#">
                 <img src="img/brand_logo.png" style="width: 48px; margin-bottom: 10px;" alt="">
                 <b>carrius</b></a>
+                <div class="header-right text-center"style=" margin-right: 1rem;">
+                    <a href="" style="text-decoration: none;"><img src="img/exit.png" alt=""> <span style="display:block; ">Leave Room</span></a>
+                </div>
         </div>
+        
         </div>
+        
         </div>
+        
     </nav>
+    <div class="container-fluid">
     <div class="row">
 
         <div class="col-lg-9">
             <div class="col-12  mb-1 d-flex">
-                <div class="col-3 offset-2 ml-3">
+                <div class="col-lg-4 col-sm-4 col-md-4  offset-lg-2 ml-lg-3 compony-name">
                     <h5>woodbine Mall Dealership</h5>
                 </div>
-                <div class="col-3 text-center live-text">
+                <div class="col-lg-4 col-sm-4 col-md-6 text-center live-text">
                     <button>
                         <span></span>
                         Live 1:50:25
                     </button>
                 </div>
-                <div class="col-3 offset-1 text-center">
+                <div class="col-lg-4 col-sm-4 offset-lg-1 col-md-6 text-center">
                     <button class="copy-invitation-link">Copy invitation link</button>
                 </div>
             </div>
-            <div class="col-8 offset-2 ">
-                <img src="pic2.PNG" class="main-video " alt="">
-            </div>
-            <div class="col-9 main-setting  ">
-                <div class="video-setting d-flex">
-                    <div class="setting-list">
-                        <ul>
-                            <li><a href="#"> <span><img src="img/icon-4.png" style="width: 27px;" alt=""></span>Guide
-                                    Me</a> </li>
-                            <li><a data-bs-toggle="offcanvas" href="#contactform" role="button"
-                                    aria-controls="contactform"> <span><img src="img/icon-1.png" style="width: 19px;"
-                                            alt=""></span>Contact Form</a> </li>
-                            <li><a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                                    aria-controls="offcanvasExample"> <span><img src="img/icon-5.png"
-                                            style="width: 27px;" alt=""></span>Chat</a> </li>
-                        </ul>
-                    </div>
-                    <div class="call_close">
-                        <a href="#"><img src="img/call.png" width="56px"></a>
-                    </div>
-                    <div class="setting-list">
-                        <ul>
-                            <li><a href="#"> <span><img src="img/icon-6.png" style="width: 27px;" alt=""></span>Share
-                                    Screen</a> </li>
-                            <li><a href="#"> <span class="vide-icon"><img src="img/icon-2.png" style="width: 27px;"
-                                            alt=""></span>Stop Video</a> </li>
-                            <li><a> <span><img src="img/icon-3.png" style="width: 17px;" alt=""></span>Microphone</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="col-8 col-12 offset-lg-2 ">
+                <!-- <img src="img/714.gif" class="main-video " alt=""> -->
+                <div  class=" col-12  main-video text-center ">
+                    <div class="col-12 waiting-div">
+                    <img src="img/714.gif" class="waiting">
+                </div>
+                <div class="col-12 word ">
+                    <h4 class="word">Establishing connection with Dealership. Please Wait... </h4>
+                </div>
                 </div>
 
-
             </div>
+            
         </div>
 
         <div class="col-lg-3">
-            <div class="col-8 mt-5" style="margin-left: 1rem ;">
-                <img src="img/bg-2.jpg" class="short-screen" alt="">
+            <div class="col-8 mt-5 small-video" style="margin-left: 1rem ;">
+                <img src="img/bg-2.jpg" class="short-screen2" alt="">
             </div>
 
         </div>
+    </div>
+</div>
+    <div class="col-lg-7 col-10 main-setting  ">
+       
+        <div class="video-setting d-flex">
+            
+            <div class="setting-list">
+                <ul>
+                    <li><a data-bs-toggle="offcanvas" href="#guidemeform" role="button"
+                        aria-controls="guidemeform"> <span><img src="img/icon-4.png" style="width: 27px;" alt=""></span>Guide
+                            Me</a> </li>
+                    <li><a data-bs-toggle="offcanvas" href="#contactform" role="button"
+                            aria-controls="contactform"> <span><img src="img/icon-1.png" style="width: 19px;"
+                                    alt=""></span>Contact Form</a> </li>
+                    <li><a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample"> <span><img src="img/icon-5.png"
+                                    style="width: 27px;" alt=""></span>Chat</a> </li>
+                </ul>
+            </div>
+            <div class="call_close">
+                <a href="#" onclick="myfunction()"><img src="img/call.png" width="56px"></a>
+            </div>
+            <div class="setting-list">
+                <ul>
+                    <li><a href="#"> <span><img src="img/icon-6.png" style="width: 27px;" alt=""></span>Share
+                            Screen</a> </li>
+                    <li><a href="#"> <span class="vide-icon"><img src="img/icon-2.png" style="width: 27px;"
+                                    alt=""></span>Stop Video</a> </li>
+                    <li><a style="color: #1D53A1;"> <span><img src="img/icon-3.png" class="mic" style="width: 13px !important;" alt=""></span>Microphone</a>
+                    </li>
+                </ul>
+            </div>
+        
+        
+        
+        
+        
+        </div>
+    
+
     </div>
 
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -149,7 +176,7 @@
 
             <div class="input-area">
                 <input type="text" placeholder="Type your massage here">
-
+             <button class="btn"> <img src="img/send2.png" style="width: 41px;" alt=""> </button>
             </div>
         </div>
     </div>
@@ -170,34 +197,38 @@
             <div class="text-center">
                 <h3 class="contact-foam-color">Sale Contact Form</h3>
             </div>
-            <div style="overflow: auto; height: 72%;">
+            <div style="overflow: auto; height: 76%;">
+                <div class="Dealer">
                 <div class="input-contact">
                     <span> Dealership's Name:</span>
-                    <input type="text">
+                    <input type="text" style=" width: 67%">
                 </div>
-                <div class="input-contact" style="margin-top: 15px;">
+                <div class="input-contact" style="margin-top: px;">
                     <span> Salesperson's Name:</span>
-                    <input type="text" style=" width: 68%">
-                    <div class="input-contact" style="margin-top: 15px;">
+                    <input type="text" style=" width: 65%">
+                    <div class="input-contact" style="margin-top: 2px;">
                         <span> Salesperson's Phone Number:</span>
-                        <input type="text" style=" width: 54%">
-                        <div class="input-contact" style="margin-top: 15px;">
+                        <input type="text" style=" width: 51%">
+                        <div class="input-contact" style="margin-top: 2px;">
                             <span> Date of Sale Contact:</span>
-                            <input type="text" style=" width: 67%">
+                            <input type="text" style=" width: 64%">
 
                         </div>
                     </div>
+                </div>
 
                 </div>
                 <div class="input-contact" style="margin-top: 15px;">
+                    <span> Buyer's Full Name</span>
+                    <input type="text" style=" width: 69%; ">
                     <span> Buyer's Phone Number:</span>
-                    <input type="text">
-                    <div class="input-contact" style="margin-top: 15px;">
+                    <input type="text" style=" width: 60%; ">
+                    <div class="input-contact" style="margin-top: 2px;">
                         <span> Buyer's Email Address:</span>
-                        <input type="text">
-                        <div class="input-contact" style="margin-top: 15px;">
+                        <input type="text" style="width: 62%;">
+                        <div class="input-contact" style="margin-top: 2px;">
                             <span> Buyer's Address:</span>
-                            <input type="text">
+                            <input type="text" style=" width: 71%;">
 
                         </div>
                     </div>
@@ -206,50 +237,50 @@
                 <div class="d-flex">
                     <div class="input-contact" style="margin-top: 15px;">
                         <span> Car Make:</span>
-                        <input type="text" style=" width: 5rem;">
+                        <input type="text" style="width: 6rem;margin-right: 8px;">
                     </div>
 
                     <div class="input-contact" style="margin-top: 15px;">
                         <span> Car Model:</span>
-                        <input type="text" style=" width: 5rem;">
+                        <input type="text" style=" width: 7rem;">
                     </div>
                 </div>
-
                 <div class="d-flex">
-                    <div class="input-contact" style="margin-top: 15px;">
-                        <span> Car Year:</span>
-                        <input type="text" style=" width: 5rem;">
+                    <div class="input-contact" style="margin-top: 2px;">
+                        <span>Car Year:</span>
+                        <input type="text" style=" width: 60%;">
                     </div>
 
-                    <div class="input-contact" style="margin-top: 15px;">
+                    <div class="input-contact" style="margin-top: 2px;">
                         <span> Car Color:</span>
-                        <input type="text" style=" width: 5rem;">
+                        <input type="text" style=" width: 60%;">
                     </div>
-                </div>
+                    </div>
+            
                 <div class="d-flex">
-                    <div class="input-contact" style="margin-top: 15px;">
-                        <span> VIN Number</span>
-                        <input type="text" style=" width: 5rem;">
+                    <div class="input-contact" style="margin-top: 2px;">
+                        <span> VIN Number:</span>
+                        <input type="text" style=" width: 54%;">
                     </div>
 
-                    <div class="input-contact" style="margin-top: 15px;">
-                        <span> Mileage(KM)</span>
-                        <input type="text" style=" width: 5rem;">
+                    <div class="input-contact" style="margin-top: 2px;">
+                        <span> Mileage(KM):</span>
+                        <input type="text" style="width: 49%;">
                     </div>
                 </div>
                 <div class="input-contact" style="margin-top: 15px;">
                     <span> Price Agreed to:</span>
-                    <input type="text" style=" width: 67%">
+                    <input type="text" style=" width: 64%">
 
                 </div>
-                <div class="input-contact" style="margin-top: 15px;">
+                <div class="input-contact" style="margin-top: 2px;">
                     <span> Payment Preference:</span>
                     <input type="text" style=" width: 67%">
 
                 </div>
-                <div class="input-contact d-flex" style="margin-top: 15px;">
+                <div class="input-contact d-flex" style="margin-top: 25px;">
                     <span> Test-Drive Preference:</span>
-                    <div class="form-check">
+                    <div class="form-check" style="margin-left: 3%;">
                         <input class="form-check-input" style=" width: 1rem;height: 1rem;" type="radio"
                             name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -257,7 +288,7 @@
                         </label>
 
                     </div>
-                    <div class="form-check">
+                    <div class="form-check offset-1">
                         <input class="form-check-input" style=" width: 1rem;height: 1rem;" type="radio"
                             name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -267,17 +298,118 @@
                     </div>
 
                 </div>
+                <div class="d-flex">
+                    <div class="input-contact" style="margin-top: 0px;">
+                        <span> Date of Test-Drive:</span>
+                        <input type="text" style=" width: 5rem;">
+                    </div>
+
+                    <div class="input-contact" style="margin-top: 0px;">
+                        <span> Time</span>
+                        <input type="text" style=" width: 8rem;">
+                    </div>
+                </div>
+                <div class="input-contact mb-2" style="margin-top: 15px;" >
+                    <span> Note/Comments:</span>
+                    <input type="text" style=" width: 70%">
+                </div>
 
             </div>
             <button type="submit" class="btn submit-btn">submit foam</button>
         </div>
     </div>
+    <!---guide me from-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="guidemeform" aria-labelledby="guidemeform">
+        <div class="offcanvas-header" style="background-color:#004fc4;padding-bottom: 4px;padding-top: 2px;">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: white;">Guiding Questions</h5>
+            <button type="button" class="btn text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                <img src="img/close.png" style="width: 27px  ;" alt="">
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <span class="text-center" style=" font-size: 13px; color: gray;">
+                Excitement can make you overlooked lots of Details; Here is
+                 a list of some Potential Questions you can ask like an Expert
+            </span>
+          <div class="list" style="overflow: auto;">
+            <div class="text-left">
+                <h5 class="ml-2">ABOUT THE VEHICLE</h5>
+                <ol class=" text-left " style="font-size: 13px;">
+                    <li>What is the condition and the current mileage?</li>
+                    <li>Where did you buy the vehicle from and when?</li>
+                    <li>Where did you buy the vehicle from and when?</li>
+
+                    <li>Has the vehicle been in any accidents?</li>
+                    <li>What type of tires are on the vehicle?</li>
+                    <li> What is the condition of the tires? </li>
+                    <li>What Are the Car's Safety Features?</li>
+                    <li>What is the sound system Quality?</li>
+                    <li> Are there any accessories that will be included?</li>
+                    <li>Has the dealer done any service on the vehicle?</li>
+                    <li>Has anything on the vehicle been replaced? ?</li>
+                    <li>What does the warranty cover and how long is it? </li>
+                    <li>What does the warranty cover and how long is it? </li>
+                    
+
+                  </ol> 
+            </div>
+            <div class="text-left">
+                <h5 class="ml-2">PRICING </h5>
+                <ol class=" text-left " style="font-size: 13px;">
+                    <li> Will you come down on the Price? </li>
+                    <li>Will you offer a discount if I buy with cash?</li>
+                    <li>Will your dealer take my existing car as a trade-in?  </li>
+
+                    <li>What fees will I pay in addition to the vehicle price? </li>
+                    <li>What costs can I expect after the Warranty ends?</li>
+                    
+                    
+
+                  </ol> 
+            </div>
+            <div class="text-left">
+                <h5 class="ml-2">FINANCING </h5>
+                <ol class=" text-left " style="font-size: 13px;">
+                    <li> Does the dealer offer in-house financing?  </li>
+                    <li>Am I eligible for Tax credits with This vehicle? </li>
+                    <li>Will your dealer take my existing car as a trade-in?  </li>
+
+                    <li>. Is there any Special financing available?  </li>
+                    <li>What are the loan terms?</li>
+                    
+                    
+
+                  </ol> 
+            </div>
+            <div class="text-left">
+                <h5 class="ml-2">TEST-DRIVE/DELIVERY</h5>
+                <ol class=" text-left " style="font-size: 13px;">
+                    <li>  Do you have On-site or At-Home test drive? </li>
+                    <li>How long can you take the vehicle for a test drive? </li>
+                    <li>Can I Test Drive the vehicle on the Highway?  </li>
+
+                    <li>Can You Deliver the Vehicle?</li>
+                    
+                    
+                    
+
+                  </ol> 
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    <!--guide me form end-->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
+<script>
+    function myfunction(){
+        window.location.href = "index3.html";
+    }
+</script>
 
 </body>
 

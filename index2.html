@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/img/brand_logo.png" type="image/icon type">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="img/brand_logo.png" type="image/icon type">
     <title>Carrius</title>
     
   </head>
@@ -24,10 +26,11 @@
         </div>
         </div>
         </div>
+        
     </nav>
 
     
-<div class="row">
+<div class="row mt-lg-5">
   <div class="col-12 text-center mt-5">
     <h1 style="color: white">Welcome to carrius Live Video Call Room</h1>
   </div>
@@ -44,16 +47,123 @@
     </form>
   </div> 
     <div class="col-12 text-center">
-    <button  class="btn welcome-foam" onclick="myFunction()">START</button><br>
+    <button  class="btn welcome-foam" data-bs-toggle="modal" data-bs-target="#exampleModal">START</button><br>
     <a href="#" class="how-we-use">How to use?</a>
   </div>
   </div>
-    <script>
-      function myFunction() {
-           window.location.href = "index.html";
-        
-       }
-    </script>
     
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body two-option">
+          <div class="col-12 text-end">
+            <button type="button" class="btn" data-bs-dismiss="modal"  style="position: relative;top: 32px;" aria-label="Close">
+              <img src="img/closeblue.png" style="width: 27px  ;" alt="">
+            </button>
+      
+
+          </div>
+          <div class="col-12 two-option text-center ">
+              <h3>Choose One option</h3>
+              </div>
+          <div class="col-12 communicate text-center">
+          <span>Feel free to communicate the way that you want to!</span>
+        </div>
+        <div class="col-12 text-center d-flex">
+           <div class="one-way color-blue col-5 ">
+                <div class="col-12 ">
+                  <span style="font-size: 23px;"><b>One Way</b> </span>
+                </div>
+                <div class="col-12">
+                  <img id="oneway" src="img/oneway.PNG" style="height: 89px; height: 89px; " alt="">
+                </div>
+                <div class="col-12 mt-4 ">
+                  <p style=" font-size: 10px;"><b>You can Hear and See
+                    the salesperson but you
+                    can only be heard and
+                    not seen.</b> </p>
+                </div>
+                <div class="col-12 ">
+              <p style=" font-size: 10px;">
+                <b> 
+                  Chat and Contact sale form included
+               </b>
+            </div>
+           </div>
+           <div class="col-1 or ">
+             <span>Or</span>
+
+           </div>
+           <div class="Two-way color-blue col-5 ml-3">
+            <div class="col-12">
+              <span style="font-size: 23px;"><b>Two Way</b></span>
+            </div>
+            <div class="col-12">
+              <img id="twoway" src="img/twoway.PNG" style="height: 89px; height: 89px; " alt="">
+            </div>
+            <div class="col-12 mt-4 ">
+              <p style=" font-size: 10px;">
+               <b> You can Hear and See
+                the salesperson and
+                vice versa.
+              </b>
+              </p>
+            </div>
+            <div class="col-12"style="margin-top: 32px;">
+              <p style=" font-size: 10px;">
+                <b> 
+                  Chat and Contact sale form included
+               </b>
+            </div>
+       </div>
+          </div>
+          <div class="col-12 text-center ">
+             <button class="btn Connect-btn" onclick="myfunction()">Connect Me </button>
+          </div>
+          <hr>
+          <div class="col-12 two-option text-center">
+            <h4>Want to connect by PHONE?</h4>
+        </div>
+        <div class="col-12 communicate text-center">
+          <span>We recommend this way of communication because of clear visual
+            and audio and Fast internet connection
+            </span>
+            <div class="col-12 text-center mt-2">
+              <img src="img/qr_code.PNG" alt="">
+            </div>
+            <div class="col-12 two-option  text-center mt-2">
+             <h4>SCAN QR CODE!</h4>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+  $('body').find('.one-way').on('click',function(){
+    $('body').find('.selected').removeClass('selected');
+     $('.one-way').addClass('selected');
+     $('#oneway').attr('src','img/onewayblue.PNG');
+     $('#twoway').attr('src','img/twoway.PNG');
+    
+  });
+  $('body').find('.Two-way').on('click',function(){
+    $('body').find('.selected').removeClass('selected');
+    $('.Two-way').addClass('selected');
+    $('#oneway').attr('src','img/oneway.PNG');
+     $('#twoway').attr('src','img/twowayblue.PNG');
+    
+  });
+  function myfunction(){
+        window.location.href = "index.html";
+    }
+</script>
   </body>
 </html>
