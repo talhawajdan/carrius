@@ -24,10 +24,7 @@
     height: 25rem;
     background-color: #F2F2F2;
 }
-body{
-    overflow: hidden;
-    
-}
+
 .live-text button{
     background: #EFF2F1;
     border: none;
@@ -71,9 +68,10 @@ body{
     justify-content: center;
     padding:16px 16px;
     margin-top: 15px;
-    margin-left: 7rem;
+    margin-left: 6rem;
     border-radius: 15px;
     align-items: flex-start;
+    padding-bottom: 0px;
 
 }
 .video-setting-btn{
