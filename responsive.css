@@ -15,7 +15,7 @@
     margin-left: 26px;
     }
     .main-video {
-        width: 25rem !important;
+        width: 26rem !important;
         height: 30rem !important ;
         position: relative;
     
@@ -80,7 +80,7 @@
         height: 6rem !important;
         position: absolute;
          top:  28rem !important;
-    right: 15px !important;
+    right: -6px !important;
     }
     .waiting{
     
@@ -152,6 +152,8 @@
 }
 @media only screen and (max-width: 800px){
 
+    
+    
     .bigscreen{
         display:none !important;
            }
@@ -222,13 +224,14 @@
            }
            .small-video-2{
                height: 15px ;
+               
            }
            .short-screen2{
-            width: 10rem ;
-            height: 6rem ;
+            width: 10rem;
+            height: 6rem;
             position: absolute;
-            top: 120px;
-            right: 35px;
+            top: 89px;
+            right: 15px;
            }
            .radio input{
                position: relative;
@@ -270,5 +273,72 @@
     .main-setting{
         margin-left: 15rem !important;
     }
+  
+        .main-video {
+            width: 23rem !important;
+            height: 30rem !important;
+            position: relative;
+        }
+    
+
+}
+@media only screen and (min-width: 1440px){
+    
+    .main-video{
+        border-radius: 10px;
+        width: 89rem;
+        height: 25rem;
+        background-color: #F2F2F2;
+    }
+    .short-screen2{
+    
+        width: 15rem;
+            
+        height: 9rem;
+            
+        border-radius: 17px;
+            
+        position: absolute;
+            
+        right: 1%;
+            
+        top: 60%;
+        }
+        
+    
+
+}
+@media only screen and (min-width: 1000px ) and (max-width:1300px){
+    .main-video{
+        border-radius: 10px;
+        width: 63rem;
+        height: 25rem;
+        background-color: #F2F2F2;
+    }
+    .main-setting{
+        
+        width: 62rem;
+        margin-left: 0rem;
+    }
+    body{
+        overflow: auto;
+    }
+    .small-video-2{
+        width: 0rem;
+    }
+    .short-screen2{
+    
+        width: 14rem;
+            
+        height: 7rem;
+            
+        border-radius: 17px;
+            
+        position: absolute;
+            
+        right: 1%;
+            
+        top: 67%;
+        }
 
 }
