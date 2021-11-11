@@ -1,5 +1,9 @@
 @media only screen and (max-width: 550px){
     
+    .radio input{
+        position: relative !important;
+        left: 38% !important;
+    } 
     .compony-div {
         display: none!important;
     }
@@ -235,7 +239,7 @@
            }
            .radio input{
                position: relative;
-               left: 38%;
+               left: 44%;
            } 
            .text{
                width: 60% !important;
@@ -340,5 +344,12 @@
             
         top: 67%;
         }
+        .btn-index-3{
+             font-size: 14px;
+        }
+        .radio input{
+            position: relative;
+            left: 46%;
+        } 
 
 }
